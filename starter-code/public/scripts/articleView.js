@@ -77,7 +77,7 @@ articleView.initNewArticlePage = function() {
 };
 
 articleView.create = function() {
-  let article;
+  // let article;
   $('#articles').empty();
 
   let article = new Article({

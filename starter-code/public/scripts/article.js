@@ -22,6 +22,7 @@ Article.prototype.toHtml = function() {
 };
 
 // REVIEW: Refactor the parameter to expect the data from the database, rather than a local file.
+//rows???
 Article.loadAll = function(rows) {
   rows.sort(function(a,b) {
     return (new Date(b.publishedOn)) - (new Date(a.publishedOn));
